@@ -1,4 +1,4 @@
-var Random = (function() {
+let Random = (function() {
 	'use strict';
 	
 	function nextDouble() {
