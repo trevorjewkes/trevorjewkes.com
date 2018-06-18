@@ -2,6 +2,7 @@ Game.ParticleSystem = (function(){
 
     let context = Game.context;
     let particles = [];
+    let Random = Game.Random;
 
     function drawParticle(p) {		
         context.save();
