@@ -1,0 +1,123 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+    height: 40em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 28px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    padding: 12px 28px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+th.canvasArea {
+    border: 5px solid black;
+    width: 75%;
+    height: 80%;
+    font-size: 36px;
+}
+
+th.gameData {
+    border: 5px solid black;
+    width: 50%;
+    height: 80%;
+    font-size: 36px;
+}
+table {
+    width: 100%;
+    height: 80%;
+    text-align: left;
+}
+
+#main-menu-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+#high-score-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    display: none; 
+    padding-top: 5%;
+}
+
+#size-menu-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding-top: 10%;
+}
+
+#game-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#credits-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding-top: 10%;
+}
+
+#finish-div {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding-top: 10%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+div.button-div {
+    text-align: center;
+}
+
+body {
+    background-color: gray;
+}
+
+#GameOutput {
+    text-align: left;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
