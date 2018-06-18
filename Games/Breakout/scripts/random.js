@@ -1,4 +1,4 @@
-let Random = (function() {
+Game.Random = (function() {
 	'use strict';
 	
 	function nextDouble() {
