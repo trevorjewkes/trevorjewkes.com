@@ -42,7 +42,7 @@ function calculateFemaleBodyWeight() {
 	result9= result8 - result5
 	leanBodyWeight = result6 + result9
 	finalResult = ((weight - leanBodyWeight) * 100) / weight
-	truncResult = Math.truc(finalResult * 100) / 100
+	truncResult = Math.trunc(finalResult * 100) / 100
 	document.getElementById('fBodyFat').innerText = 'Body Fat Percentage: ' + truncResult + '%'
 	document.getElementById('fBodyFat').style.display = 'block'
 }
