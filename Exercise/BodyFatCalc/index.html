@@ -15,6 +15,17 @@
             <br>
     </head>
     <body>
-        <h1>Exercise</h1>
+	    <h2>Body Fat Calculator</h2>
+
+	    <p>Choose Gender:</p>
+
+	    <form>
+		      <input type="radio" id="male" name="bdfat_gender" value="Male" onclick="handleRadioButton(this);">
+		      <label for="male">Male</label><br>
+		      <input type="radio" id="female" name="bdfat_gender" value="Female" onclick="handleRadioButton(this);">
+		      <label for="female">Female</label><br>
+	    </form> 
+	    <p id="outputParagraph" ></p>
+	    <script src="scripts/main.js"></script>
     </body>
 </html>
