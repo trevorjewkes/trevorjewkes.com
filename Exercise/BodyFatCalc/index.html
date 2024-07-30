@@ -25,13 +25,14 @@
 		      <input type="radio" id="female" name="bdfat_gender" value="Female" onclick="handleRadioButton(this);">
 		      <label for="female">Female</label><br>
 	    </form>
+	    <br><br>
 	    <div id="maleForm" style="display:none;">
 		<form>
 			<label for="mBodyWeight">Body Weight (lbs):</label>
 			<input type="number" id="mBodyWeight" name="mBodyWeight"><br>
 			<label for="mWaistGirth">Waist Girth (in):</label><br>
 			<input type="number" id="mWaistGirth" name="mWaistGirth"><br><br>
-			<input type="mCalc" value="Calculate" onclick="calculateMaleBodyWeight();">
+			<input type="button" id="mCalc" value="Calculate" onclick="calculateMaleBodyWeight();">
 		</form>
 		<p id="mBodyFat"></p>
 	    </div>
