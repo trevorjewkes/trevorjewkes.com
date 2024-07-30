@@ -8,7 +8,6 @@
                 <ul>
                         <li><a href="http://trevorjewkes.com/Exercise">Home</a></li>
                         <li><a href="http://trevorjewkes.com/Exercise/BodyFatCalc">Body Fat Calculator</a></li>
-			<li><a href="http://trevorjewkes.com">Big Home</a></li>
                 </ul>
             </div>
             <br>
@@ -27,7 +26,14 @@
 		      <label for="female">Female</label><br>
 	    </form>
 	    <div id="maleForm" style="display:none;">
-		    <p>The Male Form Should Show</p>
+		<form>
+			<label for="mBodyWeight">Body Weight (lbs):</label>
+			<input type="number" id="mBodyWeight" name="mBodyWeight"><br>
+			<label for="mWaistGirth">Waist Girth (in):</label><br>
+			<input type="number" id="mWaistGirth" name="mWaistGirth"><br><br>
+			<input type="mCalc" value="Calculate" onclick="calculateMaleBodyWeight();">
+		</form>
+		<p id="mBodyFat"></p>
 	    </div>
 	    <div id="femaleForm" style="display:none;">
 		    <p>The Female Form Should Show</p>
