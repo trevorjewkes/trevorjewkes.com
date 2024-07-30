@@ -7,6 +7,6 @@ function handleRadioButton(radioButton) {
 	}
 	else if (radioButton.value === 'Female') {
 		maleDiv.style.display = 'none'
-		femaleDive.style.display = 'block'
+		femaleDiv.style.display = 'block'
 	}
 }
